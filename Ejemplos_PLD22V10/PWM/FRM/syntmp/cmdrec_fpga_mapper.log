@@ -1,0 +1,10 @@
+C:\ispLEVER_Classic2_1\synpbase\bin64\m_cpld.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3  -part ispGAL22LV10  -package LJ  -grade -4   -areadelay 0 -minc -RWCheckOnRam 1 -summaryfile D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synlog\report\pwm_generator_fpga_mapper.xml -top_level_module  pwm_generator  -multisrs  -oedif  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\pwm_generator.edi  -freq 1.000  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synwork\pwm_generator_mult.srs  -devicelib  C:\ispLEVER_Classic2_1\synpbase\lib\cpld\lattice.v  -ologparam  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\syntmp\pwm_generator.plg  -osyn  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\pwm_generator.srm  -prjdir  d:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\  -prjname  pwm_generator  -log  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synlog\pwm_generator_fpga_mapper.srr 
+rc:0 success:1
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\pwm_generator.edi|o|1730739203|15805
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synwork\pwm_generator_mult.srs|i|1730739203|1844
+C:\ispLEVER_Classic2_1\synpbase\lib\cpld\lattice.v|i|1401285984|210986
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\syntmp\pwm_generator.plg|o|1730739203|0
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\pwm_generator.srm|o|1730739203|8156
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synlog\pwm_generator_fpga_mapper.srr|o|1730739203|1255
+C:\ispLEVER_Classic2_1\synpbase\bin\m_cpld.exe|i|1399390884|7067648
+C:\ispLEVER_Classic2_1\synpbase\bin64\m_cpld.exe|i|1399393722|8049664

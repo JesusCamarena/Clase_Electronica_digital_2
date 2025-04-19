@@ -1,0 +1,123 @@
+#$ DATE Mon Nov 04 10:53:28 2024
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE pwm_generator
+#$ PINS 6 duty_cycle_3_:2'ke'  clk:1'ke'  pwm_out:23'ke'  duty_cycle_2_:3'ke'  duty_cycle_1_:4'ke'  duty_cycle_0_:5'ke' 
+#$ NODES 43 counter_0_ counter_1_ counter_2_ counter_3_ counter_c2 N_2 N_3 N_4 N_5 N_6 \
+#  N_7 N_9 N_10 N_11 N_12 N_13 counter_c1 counter_i_0__n counter_i_1__n counter_i_2__n \
+#  counter_i_3__n clk_c duty_cycle_c_0__n duty_cycle_c_1__n duty_cycle_c_2__n duty_cycle_c_3__n pwm_outDFFreg N_2_i N_13_i un5_counter_0 \
+#  N_4_i N_11_i N_12_0 N_6_i N_9_i N_10_0 duty_cycle_c_i_1__n N_7_0 duty_cycle_c_i_2__n N_5_0 \
+#  duty_cycle_c_i_3__n N_3_0 N_9_1 
+.model pwm_generator
+.inputs duty_cycle_3_.BLIF clk.BLIF duty_cycle_2_.BLIF duty_cycle_1_.BLIF duty_cycle_0_.BLIF counter_0_.BLIF counter_1_.BLIF counter_2_.BLIF counter_3_.BLIF \
+  counter_c2.BLIF N_2.BLIF N_3.BLIF N_4.BLIF N_5.BLIF N_6.BLIF N_7.BLIF N_9.BLIF N_10.BLIF \
+  N_11.BLIF N_12.BLIF N_13.BLIF counter_c1.BLIF counter_i_0__n.BLIF counter_i_1__n.BLIF counter_i_2__n.BLIF counter_i_3__n.BLIF clk_c.BLIF \
+  duty_cycle_c_0__n.BLIF duty_cycle_c_1__n.BLIF duty_cycle_c_2__n.BLIF duty_cycle_c_3__n.BLIF pwm_outDFFreg.BLIF N_2_i.BLIF N_13_i.BLIF un5_counter_0.BLIF N_4_i.BLIF \
+  N_11_i.BLIF N_12_0.BLIF N_6_i.BLIF N_9_i.BLIF N_10_0.BLIF duty_cycle_c_i_1__n.BLIF N_7_0.BLIF duty_cycle_c_i_2__n.BLIF N_5_0.BLIF \
+  duty_cycle_c_i_3__n.BLIF N_3_0.BLIF N_9_1.BLIF  
+.outputs pwm_out pwm_outDFFreg.D pwm_outDFFreg.C counter_0_.D counter_0_.C counter_1_.D counter_1_.C counter_2_.D counter_2_.C counter_3_.D counter_3_.C \
+  counter_c2 N_2 N_3 N_4 N_5 N_6 N_7 N_9 N_10 N_11 N_12 \
+  N_13 counter_c1 counter_i_0__n counter_i_1__n counter_i_2__n counter_i_3__n clk_c duty_cycle_c_0__n duty_cycle_c_1__n duty_cycle_c_2__n duty_cycle_c_3__n \
+  N_2_i N_13_i un5_counter_0 N_4_i N_11_i N_12_0 N_6_i N_9_i N_10_0 duty_cycle_c_i_1__n N_7_0 \
+  duty_cycle_c_i_2__n N_5_0 duty_cycle_c_i_3__n N_3_0 N_9_1
+.names  clk.BLIF clk_c
+1 1
+.names  duty_cycle_0_.BLIF duty_cycle_c_0__n
+1 1
+.names  duty_cycle_1_.BLIF duty_cycle_c_1__n
+1 1
+.names  duty_cycle_2_.BLIF duty_cycle_c_2__n
+1 1
+.names  duty_cycle_3_.BLIF duty_cycle_c_3__n
+1 1
+.names  pwm_outDFFreg.BLIF pwm_out
+1 1
+.names  N_3_0.BLIF N_3
+0 1
+.names  N_7.BLIF counter_i_0__n.BLIF N_9_1
+11 1
+.names  N_9_1.BLIF duty_cycle_c_0__n.BLIF N_9
+11 1
+.names  N_2.BLIF N_2_i
+0 1
+.names  N_13.BLIF N_13_i
+0 1
+.names  un5_counter_0.BLIF pwm_outDFFreg.D
+0 1
+.names  N_4.BLIF N_4_i
+0 1
+.names  N_11.BLIF N_11_i
+0 1
+.names  N_12_0.BLIF N_12
+0 1
+.names  N_6.BLIF N_6_i
+0 1
+.names  N_9.BLIF N_9_i
+0 1
+.names  N_10_0.BLIF N_10
+0 1
+.names  duty_cycle_c_1__n.BLIF duty_cycle_c_i_1__n
+0 1
+.names  N_7_0.BLIF N_7
+0 1
+.names  duty_cycle_c_2__n.BLIF duty_cycle_c_i_2__n
+0 1
+.names  N_5_0.BLIF N_5
+0 1
+.names  duty_cycle_c_3__n.BLIF duty_cycle_c_i_3__n
+0 1
+.names  N_5.BLIF N_10.BLIF N_11
+11 1
+.names  N_4_i.BLIF N_11_i.BLIF N_12_0
+11 1
+.names  N_3.BLIF N_12.BLIF N_13
+11 1
+.names  N_2_i.BLIF N_13_i.BLIF un5_counter_0
+11 1
+.names  counter_0_.BLIF counter_i_0__n
+0 1
+.names  counter_3_.BLIF counter_c2.BLIF counter_3_.D
+01 1
+10 1
+.names  counter_2_.BLIF counter_c1.BLIF counter_2_.D
+01 1
+10 1
+.names  counter_0_.BLIF counter_1_.BLIF counter_1_.D
+01 1
+10 1
+.names  counter_2_.BLIF counter_c1.BLIF counter_c2
+11 1
+.names  counter_0_.BLIF counter_1_.BLIF counter_c1
+11 1
+.names  counter_i_3__n.BLIF duty_cycle_c_3__n.BLIF N_2
+11 1
+.names  counter_3_.BLIF counter_i_3__n
+0 1
+.names  counter_3_.BLIF duty_cycle_c_i_3__n.BLIF N_3_0
+11 1
+.names  counter_i_2__n.BLIF duty_cycle_c_2__n.BLIF N_4
+11 1
+.names  counter_2_.BLIF counter_i_2__n
+0 1
+.names  counter_2_.BLIF duty_cycle_c_i_2__n.BLIF N_5_0
+11 1
+.names  counter_i_1__n.BLIF duty_cycle_c_1__n.BLIF N_6
+11 1
+.names  counter_1_.BLIF counter_i_1__n
+0 1
+.names  counter_1_.BLIF duty_cycle_c_i_1__n.BLIF N_7_0
+11 1
+.names  N_6_i.BLIF N_9_i.BLIF N_10_0
+11 1
+.names  clk_c.BLIF pwm_outDFFreg.C
+1 1
+.names  counter_i_0__n.BLIF counter_0_.D
+1 1
+.names  clk_c.BLIF counter_0_.C
+1 1
+.names  clk_c.BLIF counter_1_.C
+1 1
+.names  clk_c.BLIF counter_2_.C
+1 1
+.names  clk_c.BLIF counter_3_.C
+1 1
+.end

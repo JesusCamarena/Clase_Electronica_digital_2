@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\ispLEVER_Classic2_1\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\mpap.vhd":5:7:5:19|Top entity is set to pwm_generator.
+@N: CD630 :"D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\mpap.vhd":5:7:5:19|Synthesizing work.pwm_generator.behavior 
+

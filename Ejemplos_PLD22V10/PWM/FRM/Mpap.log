@@ -1,0 +1,13 @@
+Starting EDIF2BLIF....
+readEDIF ended normally.
+
+Inspect circuit Mpap
+    Number of input ports   : 2
+    Number of output ports  : 1
+    Number of bidir ports   : 0
+    Number of instances     : 15
+    Number of nets          : 17
+
+No design errors found in circuit Mpap
+
+WriteBLIF ended normally.

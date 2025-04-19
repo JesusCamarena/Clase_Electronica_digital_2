@@ -1,0 +1,7 @@
+C:\ispLEVER_Classic2_1\synpbase\bin64\syn_nfilter.exe  -link  -top  pwm_generator  -multisrs  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synwork\pwm_generator_comp.srs  -osyn  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synwork\pwm_generator_mult.srs  -log  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synlog\pwm_generator_multi_srs_gen.srr 
+rc:0 success:1
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synwork\pwm_generator_comp.srs|i|1730739201|1680
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synwork\pwm_generator_mult.srs|o|1730739203|1844
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synlog\pwm_generator_multi_srs_gen.srr|o|1730739203|376
+C:\ispLEVER_Classic2_1\synpbase\bin\syn_nfilter.exe|i|1401249136|2741760
+C:\ispLEVER_Classic2_1\synpbase\bin64\syn_nfilter.exe|i|1401249332|6337536

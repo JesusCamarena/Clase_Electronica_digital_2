@@ -1,0 +1,5 @@
+$DEVICE         p22v10g    fit        mpap.tt3
+$PINS   11  N_11:14   counter_3_:22   counter_2_:15   counter_1_:21   counter_0_:16   pwm_out:23   duty_cycle_0_:5   
+duty_cycle_1_:4   duty_cycle_2_:3   clk:1   duty_cycle_3_:2   
+--------------------------------------------------------------
+

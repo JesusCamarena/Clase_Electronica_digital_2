@@ -1,0 +1,36 @@
+#Build: Synplify Pro I-2014.03LC , Build 063R, May 27 2014
+#install: C:\ispLEVER_Classic2_1\synpbase
+#OS: Windows 7 6.2
+#Hostname: DESKTOP-IB43GV1
+
+#Implementation: frm3
+
+$ Start of Compile
+#Mon Nov 04 10:53:21 2024
+
+Synopsys VHDL Compiler, version comp201403rcp1, Build 060R, built May 27 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\ispLEVER_Classic2_1\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\mpap.vhd":5:7:5:19|Top entity is set to pwm_generator.
+VHDL syntax check successful!
+@N: CD630 :"D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\mpap.vhd":5:7:5:19|Synthesizing work.pwm_generator.behavior 
+Post processing for work.pwm_generator.behavior
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov 04 10:53:21 2024
+
+###########################################################]
+Synopsys Netlist Linker, version comp201403rcp1, Build 060R, built May 27 2014
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Nov 04 10:53:23 2024
+
+###########################################################]

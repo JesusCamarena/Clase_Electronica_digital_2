@@ -1,0 +1,6 @@
+clk  i
+btn  i
+bobinas[3]  o
+bobinas[2]  o
+bobinas[1]  o
+bobinas[0]  o

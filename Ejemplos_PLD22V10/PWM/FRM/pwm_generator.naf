@@ -1,0 +1,6 @@
+clk  i
+duty_cycle[3]  i
+duty_cycle[2]  i
+duty_cycle[1]  i
+duty_cycle[0]  i
+pwm_out  o

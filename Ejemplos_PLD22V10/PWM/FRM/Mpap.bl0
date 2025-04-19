@@ -1,0 +1,42 @@
+#$ DATE Mon Oct 14 11:58:56 2024
+#$ TOOL EDIF2BLIF version IspLever 1.0 
+#$ MODULE mpap
+#$ PINS 6 bobinas_3_:23'ke'  clk:1'ke'  btn:2'ke'  bobinas_2_:22'ke'  bobinas_1_:21'ke'  bobinas_0_:20'ke' 
+#$ NODES 8 estado_1_reg estado_0_ N_7 estado_i_1__n N_7_i clk_c btn_c N_6_1 
+.model mpap
+.inputs clk.BLIF btn.BLIF estado_1_reg.BLIF estado_0_.BLIF N_7.BLIF estado_i_1__n.BLIF N_7_i.BLIF clk_c.BLIF btn_c.BLIF \
+  N_6_1.BLIF  
+.outputs bobinas_3_ bobinas_2_ bobinas_1_ bobinas_0_ estado_0_.D estado_0_.C estado_1_reg.D estado_1_reg.C N_7 estado_i_1__n N_7_i \
+  clk_c btn_c N_6_1
+.names  clk.BLIF clk_c
+1 1
+.names  btn.BLIF btn_c
+1 1
+.names  estado_1_reg.BLIF bobinas_0_
+1 1
+.names  N_7.BLIF bobinas_1_
+1 1
+.names  estado_i_1__n.BLIF bobinas_2_
+1 1
+.names  N_7_i.BLIF bobinas_3_
+1 1
+.names  estado_0_.BLIF estado_0_.D
+0 1
+.names  estado_0_.BLIF estado_1_reg.BLIF N_7
+01 1
+10 1
+.names  estado_1_reg.BLIF estado_i_1__n
+0 1
+.names  N_7.BLIF N_7_i
+0 1
+.names  btn_c.BLIF estado_0_.BLIF N_6_1
+01 1
+10 1
+.names  N_6_1.BLIF estado_1_reg.BLIF estado_1_reg.D
+01 1
+10 1
+.names  clk_c.BLIF estado_0_.C
+1 1
+.names  clk_c.BLIF estado_1_reg.C
+1 1
+.end

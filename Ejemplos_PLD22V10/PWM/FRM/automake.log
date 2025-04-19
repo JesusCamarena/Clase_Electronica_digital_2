@@ -1,0 +1,10 @@
+ispLEVER Auto-Make Log File
+---------------------------
+
+Updating: Hierarchy
+Start to record tcl script...
+Finished recording TCL script.
+
+Starting: 'C:\ispLEVER_Classic2_1\ispcpld\bin\vhd2jhd.exe "mpap.vhd" -o "mpap.jhd" -m "C:\ispLEVER_Classic2_1\ispcpld/generic/lib/vhd/location.map" -p "C:\ispLEVER_Classic2_1\ispcpld/generic/lib"'
+
+Done: completed successfully.

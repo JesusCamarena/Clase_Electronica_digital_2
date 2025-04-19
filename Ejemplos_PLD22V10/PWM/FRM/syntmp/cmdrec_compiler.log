@@ -1,0 +1,7 @@
+C:\ispLEVER_Classic2_1\synpbase\bin64\c_vhdl.exe  -osyn  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synwork\pwm_generator_comp.srs  -top  pwm_generator  -prodtype  synplify_pro  -nostructver -dfltencoding sequential -encrypt  -pro  -dmgen  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib  -lib work D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\mpap.vhd -loga  D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\pwm_generator.srr 
+rc:0 success:1
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\synwork\pwm_generator_comp.srs|o|1730739201|1680
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\mpap.vhd|i|1730739189|956
+D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\pwm_generator.srr|o|1730739201|1351
+C:\ispLEVER_Classic2_1\synpbase\bin\c_vhdl.exe|i|1401249098|2046976
+C:\ispLEVER_Classic2_1\synpbase\bin64\c_vhdl.exe|i|1401249304|5533184

@@ -1,0 +1,45 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Mon Oct 14 11:58:56 2024
+#$ MODULE mpap
+#$ PINS 6 bobinas_3_:23'ke'  clk:1'ke'  btn:2'ke'  bobinas_2_:22'ke'  bobinas_1_:21'ke'  bobinas_0_:20'ke' 
+#$ NODES 2 estado_1_reg estado_0_
+
+.model mpap
+.inputs clk.BLIF btn.BLIF estado_1_reg.BLIF estado_0_.BLIF
+.outputs bobinas_3_ bobinas_2_ bobinas_1_ bobinas_0_ estado_0_.D estado_0_.C \
+estado_1_reg.D estado_1_reg.C
+.names estado_0_.BLIF estado_0_.D
+0 1
+1 0
+.names btn.BLIF estado_1_reg.BLIF estado_0_.BLIF estado_1_reg.D
+100 1
+010 1
+001 1
+111 1
+000 0
+110 0
+101 0
+011 0
+.names estado_0_.BLIF estado_1_reg.BLIF bobinas_3_
+00 1
+11 1
+10 0
+01 0
+.names estado_1_reg.BLIF bobinas_2_
+0 1
+1 0
+.names estado_0_.BLIF estado_1_reg.BLIF bobinas_1_
+10 1
+01 1
+00 0
+11 0
+.names estado_1_reg.BLIF bobinas_0_
+1 1
+0 0
+.names clk.BLIF estado_0_.C
+1 1
+0 0
+.names clk.BLIF estado_1_reg.C
+1 1
+0 0
+.end

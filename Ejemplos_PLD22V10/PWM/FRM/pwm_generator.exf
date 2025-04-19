@@ -1,0 +1,58 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// -------------------------------------------------------------------------------------------------
+      Port          1      duty_cycle(3:0)               duty_cycle                  3          4            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      duty_cycle_3_               duty_cycle[3]                       1            0            
+        Port      duty_cycle_2_               duty_cycle[2]                       1            1            
+        Port      duty_cycle_1_               duty_cycle[1]                       1            2            
+        Port      duty_cycle_0_               duty_cycle[0]                       1            3            
+End
+Section Cross Reference File
+Design 'pwm_generator' created Mon Nov 04 10:53:28 2024
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst             counter_0_                                counter[0]
+   Inst             counter_1_                                counter[1]
+   Inst             counter_2_                                counter[2]
+   Inst             counter_3_                                counter[3]
+   Inst          duty_cycle_0_                             duty_cycle[0]
+   Inst          duty_cycle_1_                             duty_cycle[1]
+   Inst          duty_cycle_2_                             duty_cycle[2]
+   Inst          duty_cycle_3_                             duty_cycle[3]
+   Inst      duty_cycle_c_i_1_                         duty_cycle_c_i[1]
+   Inst      duty_cycle_c_i_2_                         duty_cycle_c_i[2]
+   Inst      duty_cycle_c_i_3_                         duty_cycle_c_i[3]
+   Inst           counter_i_0_                              counter_i[0]
+   Inst           counter_i_3_                              counter_i[3]
+   Inst           counter_i_2_                              counter_i[2]
+   Inst           counter_i_1_                              counter_i[1]
+   Net            counter_0__n                                counter[0]
+   Net            counter_1__n                                counter[1]
+   Net            counter_2__n                                counter[2]
+   Net            counter_3__n                                counter[3]
+   Net          counter_i_0__n                              counter_i[0]
+   Net          counter_i_1__n                              counter_i[1]
+   Net          counter_i_2__n                              counter_i[2]
+   Net          counter_i_3__n                              counter_i[3]
+   Net       duty_cycle_c_0__n                           duty_cycle_c[0]
+   Net         duty_cycle_0__n                             duty_cycle[0]
+   Net       duty_cycle_c_1__n                           duty_cycle_c[1]
+   Net         duty_cycle_1__n                             duty_cycle[1]
+   Net       duty_cycle_c_2__n                           duty_cycle_c[2]
+   Net         duty_cycle_2__n                             duty_cycle[2]
+   Net       duty_cycle_c_3__n                           duty_cycle_c[3]
+   Net     duty_cycle_c_i_1__n                         duty_cycle_c_i[1]
+   Net     duty_cycle_c_i_2__n                         duty_cycle_c_i[2]
+   Net     duty_cycle_c_i_3__n                         duty_cycle_c_i[3]
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     duty_cycle_3_
+        Input     clk
+        Input     duty_cycle_2_
+        Input     duty_cycle_1_
+        Input     duty_cycle_0_
+        Output     pwm_out
+End

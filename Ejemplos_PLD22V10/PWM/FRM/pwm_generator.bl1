@@ -1,0 +1,83 @@
+#$ TOOL ispLEVER Classic 2.1.00.02.49.20
+#$ DATE Mon Nov 04 10:53:28 2024
+#$ MODULE pwm_generator
+#$ PINS 6 duty_cycle_3_:2'ke'  clk:1'ke'  pwm_out:23'ke'  duty_cycle_2_:3'ke'  duty_cycle_1_:4'ke'  duty_cycle_0_:5'ke' 
+#$ NODES 6 counter_0_ counter_1_ counter_2_ counter_3_ N_11 pwm_outDFFreg
+
+.model pwm_generator
+.inputs duty_cycle_3_.BLIF clk.BLIF duty_cycle_2_.BLIF duty_cycle_1_.BLIF \
+duty_cycle_0_.BLIF counter_0_.BLIF counter_1_.BLIF counter_2_.BLIF \
+counter_3_.BLIF N_11.BLIF pwm_outDFFreg.BLIF
+.outputs pwm_out pwm_outDFFreg.D pwm_outDFFreg.C counter_0_.D counter_0_.C \
+counter_1_.D counter_1_.C counter_2_.D counter_2_.C counter_3_.D counter_3_.C \
+N_11
+.names duty_cycle_3_.BLIF duty_cycle_2_.BLIF counter_2_.BLIF counter_3_.BLIF \
+N_11.BLIF pwm_outDFFreg.D
+-100- 1
+110-- 1
+1--0- 1
+---01 1
+1---1 1
+0--1- 0
+--110 0
+-0-10 0
+0-1-0 0
+00--0 0
+.names counter_0_.BLIF counter_1_.BLIF counter_1_.D
+10 1
+01 1
+00 0
+11 0
+.names counter_0_.BLIF counter_1_.BLIF counter_2_.BLIF counter_2_.D
+110 1
+-01 1
+0-1 1
+111 0
+-00 0
+0-0 0
+.names counter_0_.BLIF counter_1_.BLIF counter_2_.BLIF counter_3_.BLIF \
+counter_3_.D
+1110 1
+--01 1
+-0-1 1
+0--1 1
+1111 0
+--00 0
+-0-0 0
+0--0 0
+.names duty_cycle_2_.BLIF duty_cycle_1_.BLIF duty_cycle_0_.BLIF \
+counter_0_.BLIF counter_1_.BLIF counter_2_.BLIF N_11
+1-100- 1
+1110-- 1
+11--0- 1
+--1000 1
+-110-0 1
+-1--00 1
+---11- 0
+--0-1- 0
+-0-1-- 0
+-00--- 0
+-0--1- 0
+0----1 0
+.names pwm_outDFFreg.BLIF pwm_out
+1 1
+0 0
+.names clk.BLIF pwm_outDFFreg.C
+1 1
+0 0
+.names counter_0_.BLIF counter_0_.D
+0 1
+1 0
+.names clk.BLIF counter_0_.C
+1 1
+0 0
+.names clk.BLIF counter_1_.C
+1 1
+0 0
+.names clk.BLIF counter_2_.C
+1 1
+0 0
+.names clk.BLIF counter_3_.C
+1 1
+0 0
+.end

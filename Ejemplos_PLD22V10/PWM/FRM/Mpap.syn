@@ -1,0 +1,11 @@
+JDF B
+// Created by Version 2.1 
+PROJECT PWM
+DESIGN mpap Normal
+DEVKIT GAL22V10C-10LP
+ENTRY Schematic/VHDL
+MODULE mpap.vhd
+MODSTYLE pwm_generator Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ModelSim
+TOPMODULE pwm_generator

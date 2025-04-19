@@ -1,0 +1,26 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|pwm_generator|-prodtype|synplify_pro|-nostructver|-dfltencoding|sequential|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\ispLEVER_Classic2_1\\synpbase\\bin64\\c_vhdl.exe":1401249304
+#CUR:"C:\\ispLEVER_Classic2_1\\synpbase\\lib\\vhd\\location.map":1310482574
+#CUR:"C:\\ispLEVER_Classic2_1\\synpbase\\lib\\vhd\\std.vhd":1401248922
+#CUR:"C:\\ispLEVER_Classic2_1\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1401248922
+#CUR:"C:\\ispLEVER_Classic2_1\\synpbase\\lib\\vhd\\std1164.vhd":1401248922
+#CUR:"C:\\ispLEVER_Classic2_1\\synpbase\\lib\\vhd\\numeric.vhd":1401248922
+#CUR:"C:\\ispLEVER_Classic2_1\\synpbase\\lib\\vhd\\umr_capim.vhd":1401249168
+#CUR:"C:\\ispLEVER_Classic2_1\\synpbase\\lib\\vhd\\arith.vhd":1401248922
+#CUR:"C:\\ispLEVER_Classic2_1\\synpbase\\lib\\vhd\\unsigned.vhd":1401248922
+#CUR:"D:\\users\\jdgar\\desktop\\a2024\\l.ed2m6\\pwm\\frm3\\mpap.vhd":1730739189
+0 "D:\users\jdgar\desktop\a2024\l.ed2m6\pwm\frm3\mpap.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work pwm_generator behavior 0
+module work pwm_generator 0
+
+
+# Configuration files used

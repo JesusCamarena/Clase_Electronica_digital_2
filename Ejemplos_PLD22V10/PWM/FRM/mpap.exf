@@ -1,0 +1,44 @@
+Section Type   Array Num   Name                     Real Name          Base     Number     Increment
+// ------------------------------------------------------------------------------------------
+      Port          1      bobinas(3:0)                  bobinas                  3          4            -1
+End
+Section Member   Rename                   Array-Notation          Array Number     Index
+// -------------------------------------------------------------------------------------
+        Port      bobinas_3_                  bobinas[3]                       1            0            
+        Port      bobinas_2_                  bobinas[2]                       1            1            
+        Port      bobinas_1_                  bobinas[1]                       1            2            
+        Port      bobinas_0_                  bobinas[0]                       1            3            
+End
+Section Cross Reference File
+Design 'Mpap' created Mon Oct 14 11:58:56 2024
+   Type              New Name                               Original Name
+// ----------------------------------------------------------------------
+   Inst              estado_0_                                 estado[0]
+   Inst              estado_1_                                 estado[1]
+   Inst             bobinas_0_                                bobinas[0]
+   Inst             bobinas_1_                                bobinas[1]
+   Inst             bobinas_2_                                bobinas[2]
+   Inst             bobinas_3_                                bobinas[3]
+   Inst            estado_i_0_                               estado_i[0]
+   Inst        bobinas_1_1__m1                           bobinas_1_1_.m1
+   Inst            estado_i_1_                               estado_i[1]
+   Inst     bobinas_1_1__N_7_i                        bobinas_1_1_.N_7_i
+   Inst       estado_9_1__m2_1                          estado_9_1_.m2_1
+   Inst         estado_9_1__m2                            estado_9_1_.m2
+   Net             estado_1__n                                 estado[1]
+   Net             estado_0__n                                 estado[0]
+   Net           estado_i_1__n                               estado_i[1]
+   Net           estado_i_0__n                               estado_i[0]
+   Net            bobinas_0__n                                bobinas[0]
+   Net            bobinas_1__n                                bobinas[1]
+   Net            bobinas_2__n                                bobinas[2]
+End
+Section Type      Name
+// ----------------------------------------------------------------------
+        Input     clk
+        Input     btn
+        Output     bobinas_3_
+        Output     bobinas_2_
+        Output     bobinas_1_
+        Output     bobinas_0_
+End

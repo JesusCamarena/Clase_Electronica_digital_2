@@ -1,0 +1,33 @@
+#-- Lattice Semiconductor Corporation Ltd.
+#-- Synplify OEM project file d:/users/jdgar/desktop/a2024/l.ed2m6/pwm/frm3\pwm_generator.prj
+#-- Written on Mon Nov 04 10:53:13 2024
+
+
+#device options
+set_option -technology ispGAL
+
+#compilation/mapping options
+
+#map options
+
+#simulation options
+set_option -write_verilog false
+set_option -write_vhdl false
+
+#timing analysis options
+set_option -synthesis_onoff_pragma false
+
+#-- add_file options
+add_file -vhdl -lib work "mpap.vhd"
+
+#-- top module name
+set_option -top_module pwm_generator
+
+#-- set result format/file last
+project -result_file "pwm_generator.edi"
+
+#-- error message log file
+project -log_file pwm_generator.srf
+
+#-- run Synplify with 'arrange VHDL file'
+project -run

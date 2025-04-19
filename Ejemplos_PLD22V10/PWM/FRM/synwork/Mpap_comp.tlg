@@ -1,0 +1,4 @@
+@N: CD630 :"D:\users\jdgar\desktop\a2024\l.ed2m6\p6\frm3\mpap.vhd":6:7:6:10|Synthesizing work.mpap.rtl 
+@N: CD233 :"D:\users\jdgar\desktop\a2024\l.ed2m6\p6\frm3\mpap.vhd":24:14:24:15|Using sequential encoding for type estados
+Post processing for work.mpap.rtl
+@N: CL201 :"D:\users\jdgar\desktop\a2024\l.ed2m6\p6\frm3\mpap.vhd":31:2:31:3|Trying to extract state machine for register estado

@@ -1,0 +1,6 @@
+@E: CD242 :"D:\users\jdgar\desktop\a2024\l.ed2m6\p6\frm3\mpap.vhd":39:4:39:7|Expecting ;
+@E: CD242 :"D:\users\jdgar\desktop\a2024\l.ed2m6\p6\frm3\mpap.vhd":45:4:45:7|Expecting ;
+@E: CD242 :"D:\users\jdgar\desktop\a2024\l.ed2m6\p6\frm3\mpap.vhd":51:4:51:7|Expecting ;
+@E: CD242 :"D:\users\jdgar\desktop\a2024\l.ed2m6\p6\frm3\mpap.vhd":57:3:57:5|Expecting ;
+@E|Parse errors encountered - exiting
+
